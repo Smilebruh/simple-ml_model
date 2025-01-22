@@ -1,1 +1,3 @@
-this is my repository for me to learn machine learning
+this is my repository that contain my machine learning models 
+
+the reference to [![kaggle](https://kaggle.com)]
