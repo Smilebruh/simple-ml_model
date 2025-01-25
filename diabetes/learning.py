@@ -18,7 +18,7 @@ X  = dataset.iloc[:,:7].to_numpy()
 
 y = dataset['Outcome'].to_numpy()
 
-X_train, X_test, y_train, y_test = train_test_split(X,y,shuffle=True,test_size=0.2)
+X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2)
 
 Model2 = LogisticRegression(max_iter=300)
 Model2.fit(X_train, y_train)
